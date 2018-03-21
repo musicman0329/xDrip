@@ -30,8 +30,11 @@ Welcome to xdrip_docs's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Smart Watches:
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 88227310055d87c7d73b69660f41d5b28fa2e23b
 
 
 
