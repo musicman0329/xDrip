@@ -8,7 +8,30 @@ Welcome to xdrip_docs's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting Started:
+   
+   Download xDrip+
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: CGM Source:
+
+   Hardware Data Source
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Cloud Upload:
+
+   MongoDB
+   Nightscout Sync (REST-API)
+   InfluxDB
+   Dexcom Share Server Upload
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Smart Watches:
+
+
 
 
 
