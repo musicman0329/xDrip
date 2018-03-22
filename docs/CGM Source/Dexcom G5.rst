@@ -5,7 +5,6 @@ Dexcom G5
 2. Launch xDrip+ from your app drawer.
 3. Accept the terms of use.
 4. Tap the menu icon in the upper left (3 lines) and tap "Settings".
-
 5. Tap "Hardware Data Source" and select "G5 Transmitter"
 6. Enter the full transmitter ID in the "Dexcom Transmitter ID" section.
 7. TRIPLE CHECK the ID, it will simply never work if this is wrong.
@@ -32,11 +31,9 @@ Dexcom G5
   * If nothing is listed, be sure that the transmitter entered is currently being worn and is close by.
   * If it is brand new, please wait an additional 20 minutes and recheck the System Status.
   * If "Bluetooth Device" does not populate, please see the troubleshooting section at the bottom of this page for help.
- 
 
 19. Once your transmitter ID is shown in the "Bluetooth Device" field, wait an additional 10-20 minutes, then tap the menu icon and look for "Add Double Calibration". This indicates that the app is acquiring sensor data as expected. If not, please wait up to 30 minutes, checking for "Add Double Calibration" every 8 minutes. Please see the troubleshooting section if "Add Double Calibration" does not appear.
 20. Once you enter the two initial calibrations, CONGRATULATIONS! You have now successfully connected your Dexcom G5 transmitter with xDrip+.
 
 ################
 Troubleshooting:
-
