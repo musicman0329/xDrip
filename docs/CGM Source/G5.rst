@@ -39,3 +39,30 @@ Dexcom G5
 
 ################
 Troubleshooting:
+
+Android bluetooth reliability varies widely between devices. There are too many differences in handsets and OS versions to guarantee sucess across many devices. 
+
+The primary troubleshooting process any time things aren't working right:
+
+1. REBOOT PHONE
+2. "Restart Collector" in xDrip+ System Status and wait a few reads to see if the phone & G5 are commuicating properly.
+Try a combination of G5 settings, on/off.
+4. Look at the BT phone guide and see if your phone (or similar model/OS is listed and try the appropriate settings).
+
+ * https://docs.google.com/spreadsheets/d/1cppf39g5eU6XHYaFLX8PotgrEwe6zraECYVLQum5q_E/edit
+ 
+##########
+Resources:
+
+ * http://www.nightscout.info/wiki/welcome/nightscout-with-xdrip-and-dexcom-share-wireless
+ * http://www.nightscout.info/DIYSupport
+
+Post questions in the "xDrip G5" or "CGM in the Cloud" Facebook groups (always start in the xDrip G5 group).
+If you need help, please include a screenshot of the following:
+
+ 1. From the xDrip+ app, tap the Menu button and select "Settings".
+ 2. Scroll down to "Less Common Settings" and tap it.
+ 3. Tap "View Recent Errors & Warnings", and select "Mid" and "High".
+ 4. Take a photograph or screenshot (Google how for your specific device) and post it along with a detailed description of your prolem in the xDrip G5 Facebook group.
+ 
+**IMPORTANT:** IF you cannot get it work, PLEASE RETURN TO YOUR PREVIOUS METHOD (iPhone app, receiver, etc).
