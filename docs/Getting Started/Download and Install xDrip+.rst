@@ -1,5 +1,5 @@
-Where to download xDrip+
-========================
+Install and Download xDrip+
+===========================
 
 Project page: 
 
