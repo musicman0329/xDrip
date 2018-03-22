@@ -18,7 +18,7 @@ Dexcom G5
   * Unbond G5 before each read
   * Use calibrated data as source
 
-9. Start with all of these options UNCHECKED (except #4)
+9. Start with all of these options UNCHECKED (except #4).
 10. If you have unreliable readings, try "Scan for G5 Constantly" first and then then try "Force G5 to UI Thread" - both together and seperately.
 11. If readings are still intermittent, continue to try different combinations. A reboot is recommended between changes if possible.
 12. Go to "Settings" > "Less Common Settings" > "Other misc options", and check "Run Collection in foreground". This will prevent Android from shutting down xDrip+'s background services.
