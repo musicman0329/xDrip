@@ -109,3 +109,27 @@ This setting configures xDrip+ to alert if no data is recieved after x number of
 * `Override Slient mode on these alerts` -- Off by default. Allows xDrip+ to override the "Do Not Disturb" feature on Android phones for this alert.
 
 ## Extra Alerts (xDrip+)
+
+#### Persistent High Alert
+* `Persistent High Alert` -- Alert if above high value for a specified length of time.
+
+  * `for longer than (minutes)` -- The default value is 60 minutes.
+  * `Repeating max every (minutes)` -- xDrip+ will re-alert if glucose continues to stay above high value. The default value is 30 minutes.
+  * `Persistent High Sound` -- Allows you to set a custom tone for this alert.
+  
+#### Forecasted Low Alert
+* `Forecast Lows` -- Extrapolate data to try to predict lows. This setting will display a unobtrusive message on the home screen when a low is predicted.
+  * `Raise alarm on Forecast Low` -- Notify when predicted low time reaches theshold.
+  * `Alarm at Forecasted low mins` -- The default value is 40 minutes.
+  * `Predicted Low Sound` -- Allows you to set a custom tone for this alert.
+  
+#### Other xDrip+ Alerts
+* `Collector battery alerts` -- Notify when batter level goes below x percentage.
+
+  * `Low battery percentage` -- The default value is 30 percent.
+
+* `Parakeet related alerts` -- Notify when parakeet device stops checking in.
+
+  * `Silent alert when charging` -- Raise parakeet notification silently when charging.
+  
+* `Follower Chime New` -- Notify when data arrives from the master if the interval is > 20 minutes.
