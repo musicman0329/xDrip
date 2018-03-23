@@ -1,4 +1,4 @@
-### Alarms and Alerts
+# Alarms and Alerts
 
 To configure the various Alarms and Alerts that are built into xDrip+, go to `Settings` > `Alarms and Alerts`. 
 * [`Glucose Level Alerts List`](#Glucose-Level-Alerts-List)
@@ -8,7 +8,7 @@ To configure the various Alarms and Alerts that are built into xDrip+, go to `Se
 * [`Other Alerts`](#Other-Alerts)
 * [`Extra Alerts (xDrip+)`](#Extra-Alerts)
 
-#### Glucose Level Alerts List
+## Glucose Level Alerts List
 
 This is where you can configure alerts for various BG levels. You can create two types of alerts: *Low Alerts* and *High Alerts*. 
 
@@ -38,12 +38,43 @@ This is where you can configure alerts for various BG levels. You can create two
   
 To delete an existing alert, press and hold on the alert you wish to remove. A window with the alert settings will pop up. Scroll to the bottom and tap `Remove Alert` to delete it. 
   
-#### Glucose Level Settings
+## Glucose Level Settings
 
-#### Calibration Alerts
+This section has additional settings for alerts related to blood glucose levels. 
 
-#### Missed reading Alert
+* `Alert Volume Profile` -- Available options are:
+  * High (default)
+  * Medium
+  * Ascending volume
+  * Vibrate only
+  * Silent
 
-#### Other Alerts
+* `Smart Snoozing` -- Keep snoozing if glucose is heading in the right direction.
+* `Smart Alerting` -- Don't alert if glucose is heading in the right direction.
+* `Don't alarm during phone calls` -- Alarms are silenced during telephone calls.
+* `Buttons silence alarms` -- Pressing the physical volume up or down buttons will snooze an active alarm when in the app. 
+* `Start Snoozed` -- Alarms start out snoozed and must persist for a while to actually trigger.
+* `Shortcut to Bg Level Alerts` -- This option creates a shortcut on the **Menu** called `Level Alerts` to the `Glucose Levels Alerts List` (see above). 
+* `Suppress Alerts if missed readings` -- Suppress snoozed and active alerts after predefined period of missed readings. Checking this option will allow you to set the `Suppress snoozed and active alerts after .. minutes (minumum 10)` variable. Otherwise, it will remain grayed out.
+* `Notification Channels` -- Use the Android 8+ notification channel feature.
 
-#### Extra Alerts (xDRip+)
+## Calibration Alerts
+
+This section allows you to set alerts related to calibrations. 
+
+* `Calibrations Alerts` -- Off by default. Sliding this switch to the ON position wil allow xDrip+ to alert with calibration requests.
+  * `Hours between calibrations` -- How many hours between calibration requests. The default value is 24 hours.
+  * `Calibration Request Sound` -- On by default. Allows you to set a custom sound for this alert.
+  * `Ovveride Silent mode` -- On by default. Allows xDrip+ to override the "Do Not Disturb" feature on Android phones for this alert.
+  * `Even when charging` -- Checked by default. If unchecked, xDrip+ will not ask for calibrations when the phone is charging.
+  * `Repeat Alerts` -- On by default. xDrip+ will continue to alert until a calibration is performed.
+  
+    * `Alert Repeat minutes` -- This sets a time interval between repeated calibration alerts. The default value is 20 minutes.
+
+* `Initial Alert` -- xDrip+ will play a sound when an Initial Calibration is requested after a sensor start or restart.
+
+## Missed reading Alert
+
+## Other Alerts
+
+## Extra Alerts (xDrip+)
