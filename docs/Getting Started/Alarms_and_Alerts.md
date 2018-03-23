@@ -75,6 +75,37 @@ This section allows you to set alerts related to calibrations.
 
 ## Missed reading Alert
 
+This setting configures xDrip+ to alert if no data is recieved after x number of minutes. To enable this alert, check the `enable alert` box at the top of the screen. 
+
+* `Alert if no data recieved in x minutes` -- xDrip+ will alert if no glucose data is recieved after x number of minutes. The default value is 30 minutes .
+* `Select time for alert` -- You can set a custom timeframe for the alert. The default is `all day`.
+* `Number of minutes before raising the same alert after snooze` -- If the alert is snoozed, xDrip+ will wait x minutes before re-alerting. The default value is 20 minutes.
+* `Reraise alerts before snooze time`
+
+  * `Alert Rereaise time (in SECONDS)`
+
 ## Other Alerts
+
+#### Noisy Readings
+* `Bad (noisy) Value Alerts`
+
+  * `Alert after x minutes of noisy values` -- Default is 90 minutes.
+  * `Alert Snooze` -- Number of minutes to wait before raising the same alert after snooze.
+  * `Reraise alerts before snooze time` -- Reraise the alert if not snoozed sooner.
+    * `Alert Reraise time` -- Number of SECONDS to pass before raising the same alert.
+
+#### Falling/Rising BG
+* `Bg falling fast`
+
+  * `falling threshold` -- Sets the rate at which BG values must drop to trigger the `Bg falling fast` alert. The default is 3 mg/dl (0.16 mmol).
+  
+* `Bg falling fast`
+
+  * `rising threshold` -- Sets the rate at which BG values must drop to trigger the `Bg falling fast` alert. The default is 3 mg/dl (0.16 mmol).
+  
+
+#### Alert Preferences (For these alerts)
+* `Alert Sound` -- This setting allows you to set a custom tone for this alert.
+* `Override Slient mode on these alerts` -- Off by default. Allows xDrip+ to override the "Do Not Disturb" feature on Android phones for this alert.
 
 ## Extra Alerts (xDrip+)
